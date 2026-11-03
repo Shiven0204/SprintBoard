@@ -5,7 +5,6 @@ import { useParams } from "react-router-dom";
 import api from "../services/api";
 import Toast from "../components/Toast";
 import { Pencil, Search, Trash2 } from "lucide-react";
-import { Pencil, Search, Trash2 } from "lucide-react";
 
 function ProjectDetails() {
   const { id } = useParams();
